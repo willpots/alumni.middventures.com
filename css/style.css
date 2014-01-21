@@ -24,9 +24,9 @@
 	{
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 18pt;
-		line-height: 1.75em;
+		line-height: 1.25em;
 		font-weight: 300;
-		letter-spacing: 1px;
+		letter-spacing: 0.5px;
 		color: #3a3939;
 		text-shadow: 0 0 0.5px rgba(58,57,57,0.25);
 		-webkit-text-stroke: 0.25px;
@@ -36,7 +36,7 @@
 	{
 		font-weight: 400;
 		text-transform: uppercase;
-		line-height: 1.75em;
+		line-height: 1.25em;
 	}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -48,7 +48,7 @@
 	h2
 	{
 		font-size: 1.25em;
-		letter-spacing: 8px;
+		letter-spacing: 4px;
 	}
 	
 	h3
