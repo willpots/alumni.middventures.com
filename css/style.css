@@ -574,41 +574,42 @@
 						margin: 0;
 					}
 				
-				.box.style1.right
+				.box.style1:nth-child(even)
 				{
 				}
 
-					.box.style1.right .image
+					/*.box.style1.right .image,*/
+					.box.style1:nth-child(even) .image
 					{
 						left: 0;
 					}
 
-						.box.style1.right .image img
+						.box.style1:nth-child(even) .image img
 						{
 							right: 0;
 						}
 					
-					.box.style1.right .inner
+					.box.style1:nth-child(even) .inner
 					{
 						margin-left: 50%;
 						padding-left: 3em;
 					}
 				
-				.box.style1.left
+				.box.style1:nth-child(odd)
 				{
 				}
 
-					.box.style1.left .image
+					.box.style1:nth-child(odd) .image
 					{
 						right: 0;
 					}
 					
-						.box.style1.left .image img
+						.box.style1:nth-child(odd) .image img
 						{
 							left: 0;
 						}
 					
-					.box.style1.left .inner
+					.box.style1:nth-child(odd) .inner
 					{
 						margin-right: 50%;
 						padding-right: 3em;
